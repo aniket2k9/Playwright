@@ -9,6 +9,7 @@ public class App {
             Page page = browser.newPage();
             page.navigate("http://playwright.dev");
             System.out.println(page.title());
+            // comment added
         }
     }
 }
